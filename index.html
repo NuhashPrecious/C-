@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{backgorund-color:#B9DEEB;}
+
+<\style>
+<\head>
+<body>
+#include<iostream>
+#include<cmath>
+int main()
+{
+	using namespace std;
+	int year;
+	cout<<"Type your year: ";
+	cin>>year;
+	if (year%400==0)
+	{
+		cout<<year<<" This year is a leap year"<< endl;
+	}
+	else if(year%100==0)
+	{
+		cout<<year<<" This is not a leap year"<<endl;
+	}
+	else if(year%4==0)
+	{
+		cout<<year<<" This year is a leap year"<< endl;
+		
+	}
+	else{
+		cout<<year<<" This is not a leap year"<<endl;
+	}
+}
+<\body>
+<\html>
